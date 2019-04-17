@@ -1,0 +1,172 @@
+{
+  "search-results": {
+    "opensearch:totalResults": "2",
+    "opensearch:startIndex": "0",
+    "opensearch:itemsPerPage": "2",
+    "opensearch:Query": {
+      "@role": "request",
+      "@searchTerms": "authlast(Christidis) and authfirst(Nikolaos )",
+      "@startPage": "0"
+    },
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/search/author?start=0&count=25&query=authlast%28Christidis%29+and+authfirst%28Nikolaos+%29",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "first",
+        "@href": "https://api.elsevier.com/content/search/author?start=0&count=25&query=authlast%28Christidis%29+and+authfirst%28Nikolaos+%29",
+        "@type": "application/json"
+      }
+    ],
+    "entry": [
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/author/author_id/23007591800"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "search",
+            "@href": "https://api.elsevier.com/content/search/author?query=au-id%2823007591800%29"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scopus-citedby",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=23007591800&origin=inward"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scopus-author",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=23007591800&origin=inward"
+          }
+        ],
+        "prism:url": "https://api.elsevier.com/content/author/author_id/23007591800",
+        "dc:identifier": "AUTHOR_ID:23007591800",
+        "eid": "9-s2.0-23007591800",
+        "preferred-name": {
+          "surname": "Christidis",
+          "given-name": "Nikolaos",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Christidis",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Christidis",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "42",
+        "subject-area": [
+          {
+            "@abbrev": "EART",
+            "@frequency": "52",
+            "$": "Earth and Planetary Sciences (all)"
+          },
+          {
+            "@abbrev": "ENVI",
+            "@frequency": "11",
+            "$": "Environmental Science (all)"
+          },
+          {
+            "@abbrev": "SOCI",
+            "@frequency": "7",
+            "$": "Social Sciences (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60018258",
+          "affiliation-id": "60018258",
+          "affiliation-name": "Met Office",
+          "affiliation-city": "Exeter",
+          "affiliation-country": "United Kingdom"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/author/author_id/55025830900"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "search",
+            "@href": "https://api.elsevier.com/content/search/author?query=au-id%2855025830900%29"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scopus-citedby",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=55025830900&origin=inward"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scopus-author",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=55025830900&origin=inward"
+          }
+        ],
+        "prism:url": "https://api.elsevier.com/content/author/author_id/55025830900",
+        "dc:identifier": "AUTHOR_ID:55025830900",
+        "eid": "9-s2.0-55025830900",
+        "preferred-name": {
+          "surname": "Christidis",
+          "given-name": "Nikolaos",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Christidis",
+            "given-name": "Nikolaus",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Christidis",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "25",
+        "subject-area": [
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "27",
+            "$": "Medicine (all)"
+          },
+          {
+            "@abbrev": "DENT",
+            "@frequency": "8",
+            "$": "Dentistry (all)"
+          },
+          {
+            "@abbrev": "NEUR",
+            "@frequency": "4",
+            "$": "Neuroscience (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/115400936",
+          "affiliation-id": "115400936",
+          "affiliation-name": "Scandinavian Center for Orofacial Neurosciences (SCON)",
+          "affiliation-city": "Huddinge",
+          "affiliation-country": "Sweden"
+        }
+      }
+    ]
+  }
+}

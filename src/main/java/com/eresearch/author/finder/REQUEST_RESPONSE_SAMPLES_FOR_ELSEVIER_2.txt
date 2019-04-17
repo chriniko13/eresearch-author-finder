@@ -1,0 +1,1984 @@
+---------------------------------
+------  EXAMPLE REQUEST  --------
+---------------------------------
+
+
+http://api.elsevier.com/content/search/author?start=0&count=25&query=authlast%28Christidis%29+or+authfirst%28Nikolaos+%29&apikey=6fc2846192484205468e36a35a930f22
+
+
+
+---------------------------------
+------  EXAMPLE RESPONSE  -------
+---------------------------------
+
+
+{
+  "search-results": {
+    "opensearch:totalResults": "3267",
+    "opensearch:startIndex": "0",
+    "opensearch:itemsPerPage": "25",
+    "opensearch:Query": {
+      "@role": "request",
+      "@searchTerms": "authlast(Christidis) or authfirst(Nikolaos )",
+      "@startPage": "0"
+    },
+    "link": [
+      {
+        "@_fa": "true",
+        "@href": "http://api.elsevier.com/content/search/author?start=0&count=25&query=authlast%28Christidis%29+or+authfirst%28Nikolaos+%29&apikey=6fc2846192484205468e36a35a930f22",
+        "@ref": "self",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@href": "http://api.elsevier.com/content/search/author?start=0&count=25&query=authlast%28Christidis%29+or+authfirst%28Nikolaos+%29&apikey=6fc2846192484205468e36a35a930f22",
+        "@ref": "first",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@href": "http://api.elsevier.com/content/search/author?start=25&count=25&query=authlast%28Christidis%29+or+authfirst%28Nikolaos+%29&apikey=6fc2846192484205468e36a35a930f22",
+        "@ref": "next",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@href": "http://api.elsevier.com/content/search/author?start=3242&count=25&query=authlast%28Christidis%29+or+authfirst%28Nikolaos+%29&apikey=6fc2846192484205468e36a35a930f22",
+        "@ref": "last",
+        "@type": "application/json"
+      }
+    ],
+    "entry": [
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/35227287700",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2835227287700%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=35227287700&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=35227287700&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/35227287700",
+        "dc:identifier": "AUTHOR_ID:35227287700",
+        "eid": "9-s2.0-35227287700",
+        "preferred-name": {
+          "surname": "Giokaris",
+          "given-name": "Nikos D.",
+          "initials": "N.D."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Giokaris",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Giokaris",
+            "given-name": "N. D.",
+            "initials": "N.D."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Giokaris",
+            "given-name": "Nikolaos D.",
+            "initials": "N.D."
+          }
+        ],
+        "document-count": "1199",
+        "subject-area": [
+          {
+            "@abbrev": "PHYS",
+            "@frequency": "1294",
+            "$": "Physics and Astronomy (all)"
+          },
+          {
+            "@abbrev": "COMP",
+            "@frequency": "4",
+            "$": "Computer Science (all)"
+          },
+          {
+            "@abbrev": "CHEM",
+            "@frequency": "1",
+            "$": "Chemistry (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60028900",
+          "affiliation-id": "60028900",
+          "affiliation-name": "University of Athens",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/35314835800",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2835314835800%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=35314835800&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=35314835800&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/35314835800",
+        "dc:identifier": "AUTHOR_ID:35314835800",
+        "eid": "9-s2.0-35314835800",
+        "preferred-name": {
+          "surname": "Konstantinidis",
+          "given-name": "Nikos P.",
+          "initials": "N.P."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Konstantinidis",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Konstantinidis",
+            "given-name": "N. P.",
+            "initials": "N.P."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Konstantinidis",
+            "given-name": "Nikos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "780",
+        "subject-area": [
+          {
+            "@abbrev": "ENGI",
+            "@frequency": "162",
+            "$": "Engineering (all)"
+          },
+          {
+            "@abbrev": "COMP",
+            "@frequency": "5",
+            "$": "Computer Science (all)"
+          },
+          {
+            "@abbrev": "CHEM",
+            "@frequency": "2",
+            "$": "Chemistry (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60023654",
+          "affiliation-id": "60023654",
+          "affiliation-name": "Universitatea Transilvania din Brasov",
+          "affiliation-city": "Brasov",
+          "affiliation-country": "Romania"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/36042831900",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2836042831900%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=36042831900&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=36042831900&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/36042831900",
+        "dc:identifier": "AUTHOR_ID:36042831900",
+        "eid": "9-s2.0-36042831900",
+        "preferred-name": {
+          "surname": "Peppas",
+          "given-name": "Nicholas A.",
+          "initials": "N.A."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Peppas",
+            "given-name": "Nikolaos A.",
+            "initials": "N.A."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Peppas",
+            "given-name": "N. A.",
+            "initials": "N.A."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Peppast",
+            "given-name": "Nikolaos A.",
+            "initials": "N.A."
+          }
+        ],
+        "document-count": "696",
+        "subject-area": [
+          {
+            "@abbrev": "SOCI",
+            "@frequency": "1",
+            "$": "Social Sciences (all)"
+          },
+          {
+            "@abbrev": "MATE",
+            "@frequency": "334",
+            "$": "Materials Science (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "26",
+            "$": "Medicine (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60013372",
+          "affiliation-id": "60013372",
+          "affiliation-name": "University of Texas at Austin",
+          "affiliation-city": "Austin",
+          "affiliation-country": "United States"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/6603900870",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%286603900870%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=6603900870&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=6603900870&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/6603900870",
+        "dc:identifier": "AUTHOR_ID:6603900870",
+        "eid": "9-s2.0-6603900870",
+        "preferred-name": {
+          "surname": "Manthos",
+          "given-name": "Nikolaos",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Manthos",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Manthos",
+            "given-name": "Nikos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "609",
+        "subject-area": [
+          {
+            "@abbrev": "PHYS",
+            "@frequency": "612",
+            "$": "Physics and Astronomy (all)"
+          },
+          {
+            "@abbrev": "ENER",
+            "@frequency": "2",
+            "$": "Energy (all)"
+          },
+          {
+            "@abbrev": "COMP",
+            "@frequency": "8",
+            "$": "Computer Science (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60004716",
+          "affiliation-id": "60004716",
+          "affiliation-name": "Panepistimion Ioanninon",
+          "affiliation-city": "Ioannina",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/34570925900",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2834570925900%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=34570925900&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=34570925900&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/34570925900",
+        "dc:identifier": "AUTHOR_ID:34570925900",
+        "eid": "9-s2.0-34570925900",
+        "preferred-name": {
+          "surname": "Kyrpides",
+          "given-name": "Nikos C.",
+          "initials": "N.C."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Kyrpides",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Kyrpides",
+            "given-name": "N. C.",
+            "initials": "N.C."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Kyrpides",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "541",
+        "subject-area": [
+          {
+            "@abbrev": "COMP",
+            "@frequency": "14",
+            "$": "Computer Science (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "34",
+            "$": "Medicine (all)"
+          },
+          {
+            "@abbrev": "IMMU",
+            "@frequency": "67",
+            "$": "Immunology and Microbiology (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60014567",
+          "affiliation-id": "60014567",
+          "affiliation-name": "DOE Joint Genome Institute",
+          "affiliation-city": "Walnut Creek",
+          "affiliation-country": "United States"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/26433908500",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2826433908500%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=26433908500&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=26433908500&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/26433908500",
+        "dc:identifier": "AUTHOR_ID:26433908500",
+        "eid": "9-s2.0-26433908500",
+        "preferred-name": {
+          "surname": "Rompotis",
+          "given-name": "Nikolaos",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Rompotis",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "540",
+        "subject-area": [
+          {
+            "@abbrev": "PHYS",
+            "@frequency": "546",
+            "$": "Physics and Astronomy (all)"
+          },
+          {
+            "@abbrev": "HEAL",
+            "@frequency": "1",
+            "$": "Health Professions  (all)"
+          },
+          {
+            "@abbrev": "MATE",
+            "@frequency": "3",
+            "$": "Materials Science (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60015481",
+          "affiliation-id": "60015481",
+          "affiliation-name": "University of Washington, Seattle",
+          "affiliation-city": "Seattle",
+          "affiliation-country": "United States"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/24555620500",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2824555620500%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=24555620500&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=24555620500&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/24555620500",
+        "dc:identifier": "AUTHOR_ID:24555620500",
+        "eid": "9-s2.0-24555620500",
+        "preferred-name": {
+          "surname": "Hadjichristidis",
+          "given-name": "Nikos Kos",
+          "initials": "N.K."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Hadjichristidis",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Hadjichristidis",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Hadjichristidis",
+            "given-name": "Ni Kos",
+            "initials": "N.K."
+          }
+        ],
+        "document-count": "520",
+        "subject-area": [
+          {
+            "@abbrev": "ENGI",
+            "@frequency": "55",
+            "$": "Engineering (all)"
+          },
+          {
+            "@abbrev": "CENG",
+            "@frequency": "47",
+            "$": "Chemical Engineering (all)"
+          },
+          {
+            "@abbrev": "MATE",
+            "@frequency": "641",
+            "$": "Materials Science (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60092945",
+          "affiliation-id": "60092945",
+          "affiliation-name": "King Abdullah University of Science and Technology",
+          "affiliation-city": "Jeddah",
+          "affiliation-country": "Saudi Arabia"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7006512066",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287006512066%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7006512066&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7006512066&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7006512066",
+        "dc:identifier": "AUTHOR_ID:7006512066",
+        "eid": "9-s2.0-7006512066",
+        "preferred-name": {
+          "surname": "Papageorgiou",
+          "given-name": "Nikolaos S.",
+          "initials": "N.S."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Papageorgiou",
+            "given-name": "N. S.",
+            "initials": "N.S."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papageorgiou",
+            "given-name": "Nikolas S.",
+            "initials": "N.S."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papageorgiou",
+            "given-name": "Nlkolaos S.",
+            "initials": "N.S."
+          }
+        ],
+        "document-count": "516",
+        "subject-area": [
+          {
+            "@abbrev": "CENG",
+            "@frequency": "1",
+            "$": "Chemical Engineering (all)"
+          },
+          {
+            "@abbrev": "MATH",
+            "@frequency": "893",
+            "$": "Mathematics (all)"
+          },
+          {
+            "@abbrev": "DECI",
+            "@frequency": "20",
+            "$": "Decision Sciences (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60002947",
+          "affiliation-id": "60002947",
+          "affiliation-name": "National Technical University of Athens",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/35579492400",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2835579492400%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=35579492400&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=35579492400&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/35579492400",
+        "dc:identifier": "AUTHOR_ID:35579492400",
+        "eid": "9-s2.0-35579492400",
+        "preferred-name": {
+          "surname": "Mastorakis",
+          "given-name": "N.",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Mastorakis",
+            "given-name": "N. E.",
+            "initials": "N.E."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Mastorakis",
+            "given-name": "Nikos E.",
+            "initials": "N.E."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Mastorakis",
+            "given-name": "Nikos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "424",
+        "subject-area": [
+          {
+            "@abbrev": "COMP",
+            "@frequency": "325",
+            "$": "Computer Science (all)"
+          },
+          {
+            "@abbrev": "CENG",
+            "@frequency": "3",
+            "$": "Chemical Engineering (all)"
+          },
+          {
+            "@abbrev": "ENVI",
+            "@frequency": "30",
+            "$": "Environmental Science (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60007061 60004554",
+          "affiliation-id": "60007061 60004554",
+          "affiliation-name": "Universita di Salerno",
+          "affiliation-city": "Salerno Sofia",
+          "affiliation-country": "Italy Bulgaria"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7102355233",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287102355233%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7102355233&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7102355233&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7102355233",
+        "dc:identifier": "AUTHOR_ID:7102355233",
+        "eid": "9-s2.0-7102355233",
+        "preferred-name": {
+          "surname": "Uzunoǧlu",
+          "given-name": "Nikolaos K.",
+          "initials": "N.K."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Uzunoglu",
+            "given-name": "Nikolaos K.",
+            "initials": "N.K."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Uzunoglu",
+            "given-name": "Nikolaos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Uzunoglu",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "403",
+        "subject-area": [
+          {
+            "@abbrev": "ENGI",
+            "@frequency": "283",
+            "$": "Engineering (all)"
+          },
+          {
+            "@abbrev": "BIOC",
+            "@frequency": "27",
+            "$": "Biochemistry, Genetics and Molecular Biology (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "45",
+            "$": "Medicine (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60002947",
+          "affiliation-id": "60002947",
+          "affiliation-name": "National Technical University of Athens",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/35548793600",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2835548793600%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=35548793600&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=35548793600&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/35548793600",
+        "dc:identifier": "AUTHOR_ID:35548793600",
+        "eid": "9-s2.0-35548793600",
+        "preferred-name": {
+          "surname": "Hatziargyriou",
+          "given-name": "Nikos D.",
+          "initials": "N.D."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Hatziargyriou",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Hatziargyriou",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Hatziargyriou",
+            "given-name": "N. D.",
+            "initials": "N.D."
+          }
+        ],
+        "document-count": "383",
+        "subject-area": [
+          {
+            "@abbrev": "PHYS",
+            "@frequency": "6",
+            "$": "Physics and Astronomy (all)"
+          },
+          {
+            "@abbrev": "COMP",
+            "@frequency": "66",
+            "$": "Computer Science (all)"
+          },
+          {
+            "@abbrev": "ENER",
+            "@frequency": "231",
+            "$": "Energy (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60002947",
+          "affiliation-id": "60002947",
+          "affiliation-name": "National Technical University of Athens",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/35461486500",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2835461486500%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=35461486500&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=35461486500&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/35461486500",
+        "dc:identifier": "AUTHOR_ID:35461486500",
+        "eid": "9-s2.0-35461486500",
+        "preferred-name": {
+          "surname": "Pavlidis",
+          "given-name": "Nicholas A.",
+          "initials": "N.A."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Pavlidis",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Pavlidis",
+            "given-name": "Nicholas",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Pavlidis",
+            "given-name": "Nicolas",
+            "initials": "N."
+          }
+        ],
+        "document-count": "372",
+        "subject-area": [
+          {
+            "@abbrev": "MATH",
+            "@frequency": "3",
+            "$": "Mathematics (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "503",
+            "$": "Medicine (all)"
+          },
+          {
+            "@abbrev": "BIOC",
+            "@frequency": "234",
+            "$": "Biochemistry, Genetics and Molecular Biology (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60004716",
+          "affiliation-id": "60004716",
+          "affiliation-name": "Panepistimion Ioanninon",
+          "affiliation-city": "Ioannina",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/16944504500",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2816944504500%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=16944504500&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=16944504500&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/16944504500",
+        "dc:identifier": "AUTHOR_ID:16944504500",
+        "eid": "9-s2.0-16944504500",
+        "preferred-name": {
+          "surname": "Siafakas",
+          "given-name": "Nikolaos M.",
+          "initials": "N.M."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Siafakas",
+            "given-name": "Nikos M.",
+            "initials": "N.M."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Siafakas",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Siafakas",
+            "given-name": "N. M.",
+            "initials": "N.M."
+          }
+        ],
+        "document-count": "372",
+        "subject-area": [
+          {
+            "@abbrev": "PHAR",
+            "@frequency": "19",
+            "$": "Pharmacology, Toxicology and Pharmaceutics (all)"
+          },
+          {
+            "@abbrev": "NEUR",
+            "@frequency": "14",
+            "$": "Neuroscience (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "409",
+            "$": "Medicine (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60015528",
+          "affiliation-id": "60015528",
+          "affiliation-name": "Attikon University Hospital",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7005468952",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287005468952%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7005468952&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7005468952&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7005468952",
+        "dc:identifier": "AUTHOR_ID:7005468952",
+        "eid": "9-s2.0-7005468952",
+        "preferred-name": {
+          "surname": "Maglaveras",
+          "given-name": "Nicos K.",
+          "initials": "N.K."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Maglaveras",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Maglaveras",
+            "given-name": "Nicos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Maglaveras",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "331",
+        "subject-area": [
+          {
+            "@abbrev": "BIOC",
+            "@frequency": "50",
+            "$": "Biochemistry, Genetics and Molecular Biology (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "224",
+            "$": "Medicine (all)"
+          },
+          {
+            "@abbrev": "NEUR",
+            "@frequency": "13",
+            "$": "Neuroscience (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60015066",
+          "affiliation-id": "60015066",
+          "affiliation-name": "Aristotle University of Thessaloniki School of Medicine",
+          "affiliation-city": "Thessaloniki",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7006247012",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287006247012%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7006247012&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7006247012&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7006247012",
+        "dc:identifier": "AUTHOR_ID:7006247012",
+        "eid": "9-s2.0-7006247012",
+        "preferred-name": {
+          "surname": "Bourbakis",
+          "given-name": "Nikolaos G.",
+          "initials": "N.G."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Bourbakis",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Bourbakis",
+            "given-name": "N. G.",
+            "initials": "N.G."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Bourbakis",
+            "given-name": "Nikolaos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "314",
+        "subject-area": [
+          {
+            "@abbrev": "COMP",
+            "@frequency": "356",
+            "$": "Computer Science (all)"
+          },
+          {
+            "@abbrev": "ENGI",
+            "@frequency": "205",
+            "$": "Engineering (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "21",
+            "$": "Medicine (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60018306",
+          "affiliation-id": "60018306",
+          "affiliation-name": "Wright State University",
+          "affiliation-city": "Dayton",
+          "affiliation-country": "United States"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7005494433",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287005494433%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7005494433&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7005494433&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7005494433",
+        "dc:identifier": "AUTHOR_ID:7005494433",
+        "eid": "9-s2.0-7005494433",
+        "preferred-name": {
+          "surname": "Papanikolopoulos",
+          "given-name": "Nikolaos P.",
+          "initials": "N.P."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Papanikolopoulos",
+            "given-name": "N. P.",
+            "initials": "N.P."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papanikolopoulos",
+            "given-name": "Nikolaos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papanikolopoulos",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "299",
+        "subject-area": [
+          {
+            "@abbrev": "ENGI",
+            "@frequency": "333",
+            "$": "Engineering (all)"
+          },
+          {
+            "@abbrev": "ENER",
+            "@frequency": "1",
+            "$": "Energy (all)"
+          },
+          {
+            "@abbrev": "ARTS",
+            "@frequency": "1",
+            "$": "Arts and Humanities (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60029445",
+          "affiliation-id": "60029445",
+          "affiliation-name": "University of Minnesota Twin Cities",
+          "affiliation-city": "Minneapolis",
+          "affiliation-country": "United States"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/22235200200",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2822235200200%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=22235200200&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=22235200200&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/22235200200",
+        "dc:identifier": "AUTHOR_ID:22235200200",
+        "eid": "9-s2.0-22235200200",
+        "preferred-name": {
+          "surname": "Paragios",
+          "given-name": "Nikos K.",
+          "initials": "N.K."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Paragios",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Paragios",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Paragios",
+            "given-name": "Nikolaos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "285",
+        "subject-area": [
+          {
+            "@abbrev": "ENGI",
+            "@frequency": "110",
+            "$": "Engineering (all)"
+          },
+          {
+            "@abbrev": "MATE",
+            "@frequency": "2",
+            "$": "Materials Science (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "91",
+            "$": "Medicine (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60105988",
+          "affiliation-id": "60105988",
+          "affiliation-name": "INRIA Saclay",
+          "affiliation-city": "Palaiseau",
+          "affiliation-country": "France"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/35354006800",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2835354006800%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=35354006800&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=35354006800&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/35354006800",
+        "dc:identifier": "AUTHOR_ID:35354006800",
+        "eid": "9-s2.0-35354006800",
+        "orcid": "0000-0002-2508-3872",
+        "preferred-name": {
+          "surname": "Papadopoulos",
+          "given-name": "N. G.",
+          "initials": "N.G."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Papadopoulos",
+            "given-name": "Nikolaos G.",
+            "initials": "N.G."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papadopoulos",
+            "given-name": "Nikolaus",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papadopoulos",
+            "given-name": "Nikos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "277",
+        "subject-area": [
+          {
+            "@abbrev": "IMMU",
+            "@frequency": "180",
+            "$": "Immunology and Microbiology (all)"
+          },
+          {
+            "@abbrev": "BIOC",
+            "@frequency": "30",
+            "$": "Biochemistry, Genetics and Molecular Biology (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "309",
+            "$": "Medicine (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60028900",
+          "affiliation-id": "60028900",
+          "affiliation-name": "University of Athens",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7005413307",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287005413307%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7005413307&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7005413307&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7005413307",
+        "dc:identifier": "AUTHOR_ID:7005413307",
+        "eid": "9-s2.0-7005413307",
+        "preferred-name": {
+          "surname": "Stergiopulos",
+          "given-name": "Nikos",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Stergiopulos",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Stergiopulos",
+            "given-name": "Nikolaos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "275",
+        "subject-area": [
+          {
+            "@abbrev": "MATE",
+            "@frequency": "4",
+            "$": "Materials Science (all)"
+          },
+          {
+            "@abbrev": "NEUR",
+            "@frequency": "7",
+            "$": "Neuroscience (all)"
+          },
+          {
+            "@abbrev": "MEDI",
+            "@frequency": "169",
+            "$": "Medicine (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60028186",
+          "affiliation-id": "60028186",
+          "affiliation-name": "Ecole Polytechnique Federale de Lausanne",
+          "affiliation-city": "Lausanne",
+          "affiliation-country": "Switzerland"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7005948999",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287005948999%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7005948999&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7005948999&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7005948999",
+        "dc:identifier": "AUTHOR_ID:7005948999",
+        "eid": "9-s2.0-7005948999",
+        "preferred-name": {
+          "surname": "Mavromatos",
+          "given-name": "E. Nick",
+          "initials": "E.N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Mavromatos",
+            "given-name": "Nick E.",
+            "initials": "N.E."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Mavromatos",
+            "given-name": "N. E.",
+            "initials": "N.E."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Mavromatos",
+            "given-name": "Nikolaos E.",
+            "initials": "N.E."
+          }
+        ],
+        "document-count": "275",
+        "subject-area": [
+          {
+            "@abbrev": "MATH",
+            "@frequency": "63",
+            "$": "Mathematics (all)"
+          },
+          {
+            "@abbrev": "ENGI",
+            "@frequency": "7",
+            "$": "Engineering (all)"
+          },
+          {
+            "@abbrev": "CHEM",
+            "@frequency": "2",
+            "$": "Chemistry (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60011520",
+          "affiliation-id": "60011520",
+          "affiliation-name": "King's College London",
+          "affiliation-city": "London",
+          "affiliation-country": "United Kingdom"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7005065013",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287005065013%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7005065013&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7005065013&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7005065013",
+        "dc:identifier": "AUTHOR_ID:7005065013",
+        "eid": "9-s2.0-7005065013",
+        "orcid": "0000-0003-3618-0288",
+        "preferred-name": {
+          "surname": "Karamanos",
+          "given-name": "Nikos",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Karamanos",
+            "given-name": "N. K.",
+            "initials": "N.K."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Karamanos",
+            "given-name": "Nikos K.",
+            "initials": "N.K."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Karamanos",
+            "given-name": "Nikolaos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "271",
+        "subject-area": [
+          {
+            "@abbrev": "AGRI",
+            "@frequency": "4",
+            "$": "Agricultural and Biological Sciences (all)"
+          },
+          {
+            "@abbrev": "CHEM",
+            "@frequency": "84",
+            "$": "Chemistry (all)"
+          },
+          {
+            "@abbrev": "CENG",
+            "@frequency": "6",
+            "$": "Chemical Engineering (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60031155",
+          "affiliation-id": "60031155",
+          "affiliation-name": "Panepistimion Patron",
+          "affiliation-city": "Patra",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/16067489900",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2816067489900%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=16067489900&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=16067489900&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/16067489900",
+        "dc:identifier": "AUTHOR_ID:16067489900",
+        "eid": "9-s2.0-16067489900",
+        "orcid": "0000-0002-9355-5528",
+        "preferred-name": {
+          "surname": "Sergentanis",
+          "given-name": "Theodoros Nikolaos",
+          "initials": "T.N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Sergentanis",
+            "given-name": "Theodoros N.",
+            "initials": "T.N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Sergentanis",
+            "given-name": "T. N.",
+            "initials": "T.N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Sergentanis",
+            "given-name": "Thodoris N.",
+            "initials": "T.N."
+          }
+        ],
+        "document-count": "258",
+        "subject-area": [
+          {
+            "@abbrev": "BIOC",
+            "@frequency": "106",
+            "$": "Biochemistry, Genetics and Molecular Biology (all)"
+          },
+          {
+            "@abbrev": "SOCI",
+            "@frequency": "3",
+            "$": "Social Sciences (all)"
+          },
+          {
+            "@abbrev": "HEAL",
+            "@frequency": "8",
+            "$": "Health Professions  (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/107144800",
+          "affiliation-id": "107144800",
+          "affiliation-name": "Society of Junior Doctors",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/56275172000",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2856275172000%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=56275172000&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=56275172000&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/56275172000",
+        "dc:identifier": "AUTHOR_ID:56275172000",
+        "eid": "9-s2.0-56275172000",
+        "preferred-name": {
+          "surname": "Tsagarakis",
+          "given-name": "Nikos G.",
+          "initials": "N.G."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Tsagarakis",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Tsagarakis",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Tsagarakis",
+            "given-name": "N. G.",
+            "initials": "N.G."
+          }
+        ],
+        "document-count": "257",
+        "subject-area": [
+          {
+            "@abbrev": "SOCI",
+            "@frequency": "2",
+            "$": "Social Sciences (all)"
+          },
+          {
+            "@abbrev": "COMP",
+            "@frequency": "464",
+            "$": "Computer Science (all)"
+          },
+          {
+            "@abbrev": "MATH",
+            "@frequency": "30",
+            "$": "Mathematics (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60102151",
+          "affiliation-id": "60102151",
+          "affiliation-name": "Istituto Italiano di Tecnologia",
+          "affiliation-city": "Genoa",
+          "affiliation-country": "Italy"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/7006058570",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%287006058570%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=7006058570&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=7006058570&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/7006058570",
+        "dc:identifier": "AUTHOR_ID:7006058570",
+        "eid": "9-s2.0-7006058570",
+        "orcid": "0000-0002-1282-0896",
+        "preferred-name": {
+          "surname": "Mihalopoulos",
+          "given-name": "N.",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Mihalopoulos",
+            "given-name": "Nikolaos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Mihalopoulos",
+            "given-name": "Nikos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Mthalopoulos",
+            "given-name": "N.",
+            "initials": "N."
+          }
+        ],
+        "document-count": "243",
+        "subject-area": [
+          {
+            "@abbrev": "AGRI",
+            "@frequency": "20",
+            "$": "Agricultural and Biological Sciences (all)"
+          },
+          {
+            "@abbrev": "ENVI",
+            "@frequency": "225",
+            "$": "Environmental Science (all)"
+          },
+          {
+            "@abbrev": "CHEM",
+            "@frequency": "13",
+            "$": "Chemistry (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60011619",
+          "affiliation-id": "60011619",
+          "affiliation-name": "National Observatory of Athens",
+          "affiliation-city": "Athens",
+          "affiliation-country": "Greece"
+        }
+      },
+      {
+        "@_fa": "true",
+        "link": [
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/author/author_id/12763313600",
+            "@ref": "self"
+          },
+          {
+            "@_fa": "true",
+            "@href": "http://api.elsevier.com/content/search/author?query=au-id%2812763313600%29",
+            "@ref": "search"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=12763313600&origin=inward",
+            "@ref": "scopus-citedby"
+          },
+          {
+            "@_fa": "true",
+            "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=12763313600&origin=inward",
+            "@ref": "scopus-author"
+          }
+        ],
+        "prism:url": "http://api.elsevier.com/content/author/author_id/12763313600",
+        "dc:identifier": "AUTHOR_ID:12763313600",
+        "eid": "9-s2.0-12763313600",
+        "preferred-name": {
+          "surname": "Papanas",
+          "given-name": "Nikolaos",
+          "initials": "N."
+        },
+        "name-variant": [
+          {
+            "@_fa": "true",
+            "surname": "Papanas",
+            "given-name": "N.",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papanas",
+            "given-name": "Niklaos",
+            "initials": "N."
+          },
+          {
+            "@_fa": "true",
+            "surname": "Papanas",
+            "given-name": "Nickolaos",
+            "initials": "N."
+          }
+        ],
+        "document-count": "243",
+        "subject-area": [
+          {
+            "@abbrev": "PHAR",
+            "@frequency": "42",
+            "$": "Pharmacology, Toxicology and Pharmaceutics (all)"
+          },
+          {
+            "@abbrev": "NURS",
+            "@frequency": "1",
+            "$": "Nursing (all)"
+          },
+          {
+            "@abbrev": "HEAL",
+            "@frequency": "2",
+            "$": "Health Professions  (all)"
+          }
+        ],
+        "affiliation-current": {
+          "affiliation-url": "http://api.elsevier.com/content/affiliation/affiliation_id/60030988",
+          "affiliation-id": "60030988",
+          "affiliation-name": "Dimokrition Panepistimion Thrakis",
+          "affiliation-city": "Komotini",
+          "affiliation-country": "Greece"
+        }
+      }
+    ]
+  }
+}

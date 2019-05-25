@@ -1,18 +1,11 @@
 package com.eresearch.author.finder;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.eresearch.author.finder.application.event.listener.*;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-
-import com.eresearch.author.finder.application.event.listener.ApplicationEnvironmentPreparedEventListener;
-import com.eresearch.author.finder.application.event.listener.ApplicationFailedEventListener;
-import com.eresearch.author.finder.application.event.listener.ApplicationReadyEventListener;
-import com.eresearch.author.finder.application.event.listener.ApplicationStartedEventListener;
-import com.eresearch.author.finder.application.event.listener.BaseApplicationEventListener;
-import com.eresearch.author.finder.db.DbOperations;
 
 /**
  * This is the entry point for our microservice.
@@ -46,12 +39,8 @@ public class EresearchAuthorFinderApplication implements CommandLineRunner, Appl
 
     }
 
-    @Autowired
-    private DbOperations dbOperations;
-
     @Override
     public void run(String... strings) throws Exception {
-        dbOperations.runTask();
     }
 
     @Override

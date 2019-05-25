@@ -6,7 +6,6 @@ import com.eresearch.author.finder.connector.ScopusSearchConnector;
 import com.eresearch.author.finder.dto.*;
 import com.eresearch.author.finder.exception.BusinessProcessingException;
 import com.eresearch.author.finder.metrics.entries.ServiceLayerMetricEntry;
-import com.eresearch.author.finder.repository.AuthorFinderRepository;
 import com.eresearch.author.finder.service.scopus.author.search.SearchQuery;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -44,17 +43,11 @@ public class AuthorFinderServiceImpl implements AuthorFinderService {
     private ServiceLayerMetricEntry serviceLayerMetricEntry;
 
     @Autowired
-    private AuthorFinderRepository authorFinderRepository;
-
-    @Autowired
     private JmsTemplate jmsTemplate;
 
     @Autowired
     @Qualifier("elsevierObjectMapper")
     private ObjectMapper objectMapper;
-
-    @Value("${enable.persistence.results}")
-    private String enablePersistenceForResults;
 
     @Override
     public TestDto testMethod(TestDto testDto) {
@@ -82,10 +75,6 @@ public class AuthorFinderServiceImpl implements AuthorFinderService {
             result.setResults(authorToSearchResults);
             result.setOperationResult(Boolean.TRUE);
             result.setProcessFinishedDate(Instant.now(clock));
-
-            if (Boolean.valueOf(enablePersistenceForResults)) {
-                authorFinderRepository.save(authorFinderDto, result);
-            }
 
             return result;
 
